@@ -1,0 +1,23 @@
+.App{
+ margin: 0;
+ padding: 0;
+ width: 100vw;
+ border: solid 1px;
+}
+.header{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+}
+.title{
+  font-size: 2vw;
+}
+.nav{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: solid 1px;
+  width: 50vw;
+}
